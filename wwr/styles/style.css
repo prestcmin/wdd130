@@ -1,15 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=IM+Fell+French+Canon&family=Lato:ital,wght@0,400;0,700;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald&family=Rubik+Dirt&display=swap');
+
 body{
+    font-family: "Oswald", "Georgia", "Arial";
+    font-size: 22px;
     background-color: #F2CD91;
+    margin: 0;
+    padding: 0;
 }
 
 header{
+    font-family: "Rubik Dirt", "Georgia", "Arial";
+    font-size: 2em;
     background-color: #075874;
+}
+
+h2{
+    margin: 0;
 }
 
 nav a{
     text-align: center;
     color: #FFFFFF;
     text-decoration: none;
+    padding: 35px;
 }
 
 nav a:hover{
@@ -18,9 +32,13 @@ nav a:hover{
 }
 
 .book, .join{
+    font-size: 18px;
     background-color: #F2CD91;
     color: black;
     text-decoration: none;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 
 .book:hover, .join:hover{
@@ -29,7 +47,9 @@ nav a:hover{
 }
 
 .msg{
+    line-height: 1.5em;
     background-color: #F2CD91;
+    padding: 35px;
 }
 
 .msg h2{
@@ -37,7 +57,16 @@ nav a:hover{
 }
 
 .msg p{
+    font-size: .8em;
     color: black;
+    padding-bottom: 15px;
+}
+
+footer{
+    background-color: #075874;
+    color: #FFFFFF;
+    padding: 25px 50px;
+    margin-top: 200px;
 }
 
 footer p{
@@ -48,11 +77,6 @@ footer p:hover{
     text-decoration: underline;
 }
 
-footer{
-    background-color: #075874;
-    color: #FFFFFF;
-}
-
 footer a{
     color: #FFFFFF;
     text-decoration: none;
@@ -60,6 +84,10 @@ footer a{
 
 footer a:hover{
     color: #FFFFFF;
+}
+
+footer .social img{
+    padding-top: 15px;
 }
 
 #content{
@@ -87,13 +115,19 @@ main section{
     text-align: center;
 }
 
+main section img{
+    box-sizing: border-box;
+}
+
 #background{
     background-color: #F2CD91;
     height: 725px;
 }
 
 .home-title{
+    font-family: "Rubik Dirt", "Georgia", "Arial";
     color: black;
+    margin-top: 10px;
 }
 
 h4{
@@ -102,8 +136,21 @@ h4{
 
 .icon{
     width: 80px;
+    padding-top: 10px;
 }
 
 .logo{
     width: 80px;
+}
+
+#logo-link{
+    padding-top: 5px;
+}
+
+.card-img{
+    border: 10px solid #075874;
+}
+
+.rivers-card, .camping-card, .rapids-card{
+    margin: 200px 0;
 }
