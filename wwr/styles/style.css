@@ -272,3 +272,106 @@ h4{
         margin-top: 25px;
     }
 }
+
+#welcome{
+    justify-items: center;
+}
+
+.hello{
+    display: block;
+    justify-self: center;
+    margin: 25px;
+    border: 10px solid #075874;
+    transition: transform .5s;
+    box-shadow: 5px 5px 10px #6f7364;
+}
+
+.blog-grid{
+    display: grid;
+    grid-template-columns: repeat(3, .5fr 1fr 1fr .5fr);
+    padding-bottom: 25px;
+    padding-top: 25px;
+}
+
+.highlight-text{
+    grid-column: 2/12;
+    padding-top: 75px;
+}
+
+.highlight-text h1{
+    grid-row: 1/2;
+}
+
+.highlight-text p{
+    grid-row: 2/3;
+    padding-bottom: 15px;
+}
+
+.highlights{
+    border: 10px solid #075874;
+    transition: transform .5s;
+    box-shadow: 5px 5px 10px #6f7364;
+    width: 100%;
+}
+
+.rough-water{
+    grid-column: 2/4;
+    grid-row: 3/4;
+}
+
+.canyon{
+    grid-column: 6/8;
+    grid-row: 3/4;
+}
+
+.waterfall{
+    grid-column: 10/12;
+    grid-row: 3/4;
+}
+
+.encounter-text{
+    grid-column: 2/12;
+    grid-row: 4/5;
+    padding-top: 75px;
+    padding-bottom: 75px;
+}
+
+.scorpion-img{
+    grid-column: 2/7;
+    grid-row: 6/7;
+    width: 100%;
+    align-self: start;
+    object-fit: cover;
+    align-self: stretch;
+    border: 5px solid #075874;
+    transition: transform .5s;
+    box-shadow: 5px 5px 10px #6f7364;
+}
+
+.scorpion-msg{
+    grid-column: 7/12;
+    grid-row: 6/7;
+    padding-left: 25px;
+    align-self: center;
+}
+
+.big-horn-img{
+    grid-column: 7/12;
+    grid-row: 8/9;
+    width: 100%;
+    align-self: start;
+    object-fit: cover;
+    align-self: stretch;
+    margin-top: 100px;
+    border: 5px solid #075874;
+    transition: transform .5s;
+    box-shadow: 5px 5px 10px #6f7364;
+}
+
+.big-horn-msg{
+    grid-column: 2/7;
+    grid-row: 8/9;
+    padding-right: 25px;
+    padding-top: 100px;
+    align-self: center;
+}
