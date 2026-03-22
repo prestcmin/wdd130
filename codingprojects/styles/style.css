@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Funnel+Display:wght@300..800&family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+body{
+    font-family: "Funnel Display", "Georgia", "Arial";
+    font-size: 20px;
+}
+
+header{
+    font-family: "Noto Sans", "Georgia", "Arial";
+    font-size: 2em;
+    background-color: #474645;
+    display: grid;
+    grid-template-columns: 150px auto;
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+}
+
+nav a{
+    text-align: center;
+    color: #E6E3DF;
+    text-decoration: none;
+    padding: 35px;
+}
+
+nav a:hover{
+    background-color: white;
+    color: #0A0A0A;
+}
+
+#logo_link{
+    padding-top: 5px;
+    justify-self: center;
+    align-self: center;
+}
+
+.logo{
+    width: 100px;
+}
+
+#welcome{
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    margin-top: 100px;
+    grid-column: 1/13;
+    grid-row: 1/6;
+    padding-bottom: 20px;
+}
+
+#welcome-img{
+    grid-column: 2/4;
+    grid-row: 2/6;
+    border: 10px solid #474645;
+    box-shadow: 5px 5px 10px #6f7364;
+}
+
+#welcome p{
+    grid-column: 6/12;
+    grid-row: 3/5;
+}
+
+.home-grid{
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+}
+
+#background{
+    background-color: white;
+    grid-column: 1/13;
+    grid-row: 6/7;
+    height: 200px
+}
+
+.recent{
+    grid-column: 3/9;
+    grid-row: 10/18;
+    width: 100%;
+    height: 100%;
+    border: 10px solid #474645;
+    box-shadow: 5px 5px 10px #6f7364;
+}
+
+.msg{
+    background-color: #474645;
+    color : #E6E3DF;
+    grid-column: 7/11;
+    grid-row: 12/16;
+    padding: 20px;
+}
+
+.msg a{
+    color: #E6E3DF;
+}
+
+footer{
+    background-color: #474645;
+    text-align: center;
+    margin-top: 150px;
+    display: flex;
+    justify-content: space-around;
+}
+
+footer a{
+    color: #E6E3DF;
+    text-decoration: none;;
+}
+
+footer a:hover{
+    text-decoration: underline;
+    color: #E6E3DF;
+}
