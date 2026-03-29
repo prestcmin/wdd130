@@ -111,3 +111,41 @@ footer a:hover{
     text-decoration: underline;
     color: #E6E3DF;
 }
+
+#welcome-python {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    margin-top: 100px;
+    grid-column: 1/13;
+    grid-row: 1/6;
+    padding-bottom: 20px;
+    margin-bottom: 150px;
+}
+
+#welcome-python-img {
+    grid-row: 1/5;
+    grid-column: 6/7;
+    border: 10px solid #474645;
+    box-shadow: 5px 5px 10px #6f7364;
+    border-radius: 50%;
+}
+
+#welcome-python p{
+    grid-row: 7/9;
+    grid-column: 3/10;
+    text-align: center;
+}
+
+.project-right {
+    grid-row: 8/14;
+    grid-column: 7/11;
+    border: 10px solid #474645;
+    box-shadow: 5px 5px 10px #6f7364;
+}
+
+.project-right-msg {
+    grid-row: 10/12;
+    grid-column: 2/7;
+    text-align: center;
+    padding-right: 50px;
+}
