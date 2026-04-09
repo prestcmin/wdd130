@@ -124,7 +124,7 @@ footer a:hover{
 
 #welcome-python-img {
     grid-row: 1/5;
-    grid-column: 6/7;
+    grid-column: 6/8;
     border: 10px solid #474645;
     box-shadow: 5px 5px 10px #6f7364;
     border-radius: 50%;
@@ -132,20 +132,20 @@ footer a:hover{
 
 #welcome-python p{
     grid-row: 7/9;
-    grid-column: 3/10;
+    grid-column: 3/11;
     text-align: center;
 }
 
 .project-right {
     grid-row: 8/14;
-    grid-column: 7/11;
+    grid-column: 8/12;
     border: 10px solid #474645;
     box-shadow: 5px 5px 10px #6f7364;
 }
 
 .project-right-msg {
     grid-row: 10/12;
-    grid-column: 2/7;
+    grid-column: 3/7;
     text-align: center;
     padding-right: 50px;
 }
